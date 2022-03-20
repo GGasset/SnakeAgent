@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeneticSnake
+namespace SnakeNN
 {
     internal class SnakeGame
     {
