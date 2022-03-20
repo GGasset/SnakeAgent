@@ -1,0 +1,6 @@
+[submodule "NN"]
+	path = NN
+	url = https://github.com/GGasset/NN.git
+[submodule "DataStructures"]
+	path = DataStructures
+	url = https://github.com/GGasset/DataStructures.git

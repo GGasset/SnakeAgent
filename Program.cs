@@ -10,6 +10,7 @@ namespace SnakeNN
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
