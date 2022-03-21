@@ -53,17 +53,5 @@ namespace SnakeNN
             }
             while (true);
         }
-
-        static void HumanSupervisionQuestions(out bool visualize, out int generationsWithoutQuestions, out bool saveToFile)
-        {
-            Console.Write("Want to visualize current generation? Y/N - ");
-            visualize = Console.ReadLine().ToUpperInvariant() == "Y";
-            Console.WriteLine();
-            Console.Write("Want to save current snake to a file? Y/N - ");
-            saveToFile = Console.ReadLine().ToUpperInvariant() == "Y";
-            Console.WriteLine();
-            Console.Write("How many generations are next for training? - ");
-            generationsWithoutQuestions = Convert.ToInt32(Console.ReadLine());
-        }
     }
 }
